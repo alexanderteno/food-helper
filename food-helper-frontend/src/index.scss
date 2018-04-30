@@ -1,0 +1,29 @@
+$mdc-theme-primary: rgb(75, 75, 255);
+$mdc-theme-secondary: rgb(255, 0, 0);
+$mdc-theme-on-primary: white;
+$mdc-theme-on-secondary: rgb(0, 0, 255);
+
+$mdc-theme-text-primary-on-light: black;
+$mdc-theme-text-primary-on-dark: white;
+
+@import "@material/ripple/mdc-ripple";
+@import "@material/typography/mdc-typography";
+@import "@material/toolbar/mdc-toolbar";
+@import "@material/drawer/mdc-drawer";
+@import "@material/layout-grid/mdc-layout-grid";
+@import "@material/list/mdc-list";
+@import "@material/menu/mdc-menu";
+@import "@material/top-app-bar/mdc-top-app-bar";
+
+html {
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+body, #root {
+  flex: 1 0 auto;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}

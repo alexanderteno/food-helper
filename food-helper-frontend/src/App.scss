@@ -1,0 +1,12 @@
+.app {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: row;
+
+  .content {
+    display: inline-flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+}

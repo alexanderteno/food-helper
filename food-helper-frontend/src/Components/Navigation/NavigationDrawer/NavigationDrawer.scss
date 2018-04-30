@@ -1,0 +1,17 @@
+@import "@material/animation/functions";
+
+@keyframes fade-in {
+  from {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.mdc-drawer {
+  animation: mdc-animation-enter(fade-in, 350ms);
+}
