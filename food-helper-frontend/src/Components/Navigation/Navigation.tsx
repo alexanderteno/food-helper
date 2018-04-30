@@ -18,7 +18,7 @@ const Navigation: React.SFC<INavigationProps> = (props) => (
               className="material-icons mdc-toolbar__menu-icon"
               onClick={props.toggleNavigation}
             >
-              menu
+              {props.navigationOpen ? 'arrow_back': 'menu'}
             </a>
           ) : (
             <div className="material-icons mdc-toolbar__menu-icon mdc-icon-spin">

@@ -115,6 +115,14 @@ module.exports = {
                         ]
                     },
                     {
+                        test: /\.(json)$/,
+                        use: [
+                            {
+                                loader: "json-loader"
+                            }
+                        ]
+                    },
+                    {
                         exclude: [/\.(js|jsx|mjs)$/, /\.html$/, /\.json$/],
                         loader: require.resolve('file-loader'),
                         options: {

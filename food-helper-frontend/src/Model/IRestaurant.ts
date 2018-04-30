@@ -1,7 +1,11 @@
+import ILocation from './ILocation';
+import IMenu from './IMenu';
+
 interface IRestaurant {
-  address?: string;
-  id: number;
-  name: string;
+    id: number;
+    name: string;
+    location?: ILocation | undefined;
+    menu: IMenu;
 }
 
 export default IRestaurant;

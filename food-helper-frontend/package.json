@@ -21,6 +21,7 @@
     "glob": "^7.1.2",
     "html-webpack-plugin": "2.29.0",
     "jest": "22.1.4",
+    "json-loader": "^0.5.7",
     "material-components-web": "^0.35.0",
     "node-sass-chokidar": "^1.2.2",
     "npm-run-all": "^4.1.2",

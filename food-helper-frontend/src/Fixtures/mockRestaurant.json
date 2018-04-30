@@ -1,0 +1,48 @@
+{
+  "id": 0,
+  "name": "Chatime Markham (Pacific Mall)",
+  "location": {
+    "id": 0,
+    "restaurantId": 0,
+    "city": "Markham",
+    "postalCode": "L3R0Y5",
+    "province": "ON",
+    "streetName": "Steeles Ave E",
+    "streetNumber": "4300"
+  },
+  "menu": {
+    "id": 0,
+    "restaurantId": 0,
+    "menuSections": [
+      {
+        "id": 0,
+        "menuId": 0,
+        "sectionName": "Signature Milk Tea",
+        "menuItems": [
+          {
+            "id": 0,
+            "sectionId": 0,
+            "name": "Chatime Milk Tea"
+          },
+          {
+            "id": 1,
+            "name": "Jasmine Green Milk Tea",
+            "sectionId": 0
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "sectionName": "Special Mix Tea",
+        "menuId": 0,
+        "menuItems": [
+          {
+            "id": 2,
+            "name": "Mango Green Tea",
+            "sectionId": 1
+          }
+        ]
+      }
+    ]
+  }
+}
