@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import IRestaurant from '../../../Model/IRestaurant';
 import './NavigationDrawer.scss';
 
@@ -15,14 +16,14 @@ const NavigationDrawer: React.SFC<INavigationDrawerProps> = (props) => (
         <nav className="mdc-list">
           {
             props.restaurants.map(( (restaurant: IRestaurant) => (
-                <a
-                  href="#"
+                <Link
+                  to={`/${restaurant.id}`}
                   className="mdc-list-item"
                   onClick={() => props.selectRestaurant(restaurant)}
                   key={restaurant.id}
                 >
                   {restaurant.name}
-                </a>
+                </Link>
               ) ),
             )
           }

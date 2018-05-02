@@ -4,24 +4,24 @@ import IMenuSection from '../../../Model/IMenuSection';
 import MenuItem from './MenuItem/MenuItem';
 
 interface IMenuSectionProps {
-    menuSection: IMenuSection
+  menuSection: IMenuSection
 }
 
 const MenuSection: React.SFC<IMenuSectionProps> = (props) => {
 
-    const {menuItems} = props.menuSection;
+  const { menuItems } = props.menuSection;
 
-    const children = menuItems ?
-        menuItems.map((menuItem: IMenuItem) => React.createElement(MenuItem, {menuItem})) : null;
+  const children = menuItems ?
+    menuItems.map((menuItem: IMenuItem) => React.createElement(MenuItem, { key: menuItem.id, menuItem })) : null;
 
-    return (
-        <div className="menu-section">
-            <div className="name">
-                {props.menuSection.sectionName}
-            </div>
-            {children}
-        </div>
-    );
+  return (
+    <div className="menu-section">
+      <div className="name">
+        {props.menuSection.sectionName}
+      </div>
+      {children}
+    </div>
+  );
 };
 
 export default MenuSection;

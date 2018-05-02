@@ -1,7 +1,8 @@
 interface IMenuItem {
-    name: string;
-    rating?: number;
-    sectionId?: number;
+  id: number;
+  name: string;
+  rating?: number;
+  sectionId?: number;
 }
 
 export default IMenuItem;
