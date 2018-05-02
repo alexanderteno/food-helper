@@ -17,7 +17,7 @@
       {
         "id": 0,
         "menuId": 0,
-        "sectionName": "Signature Milk Tea",
+        "sectionName": "SIGNATURE MILK TEA",
         "menuItems": [
           {
             "id": 0,
@@ -28,18 +28,190 @@
             "id": 1,
             "name": "Jasmine Green Milk Tea",
             "sectionId": 0
+          },
+          {
+            "id": 2,
+            "name": "Chatime Pearl Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 3,
+            "name": "Brown Rice Green Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 4,
+            "name": "Brewed Oolong Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 5,
+            "name": "Caramel Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 6,
+            "name": "Vanilla Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 7,
+            "name": "Hazelnut Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 8,
+            "name": "Hazelnut Chocolate Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 9,
+            "name": "Malt Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 10,
+            "name": "Honey Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 11,
+            "name": "Honey Oolong Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 12,
+            "name": "Taro Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 13,
+            "name": "Coconut Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 14,
+            "name": "Honeydew Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 15,
+            "name": "Lychee Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 16,
+            "name": "Strawberry Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 17,
+            "name": "Banana Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 18,
+            "name": "Grass Jelly Roasted Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 19,
+            "name": "Grass Jelly with Fresh Milk",
+            "sectionId": 0
+          },
+          {
+            "id": 20,
+            "name": "Matcha Red Bean Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 21,
+            "name": "Chatime Red Bean Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 22,
+            "name": "Honey Green Milk Tea",
+            "sectionId": 0
+          },
+          {
+            "id": 23,
+            "name": "Wintermelon Milk Tea",
+            "sectionId": 0
           }
         ]
       },
       {
         "id": 1,
-        "sectionName": "Special Mix Tea",
+        "sectionName": "SPECIAL MIX TEA",
         "menuId": 0,
         "menuItems": [
           {
-            "id": 2,
+            "id": 24,
             "name": "Mango Green Tea",
             "sectionId": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "sectionName": "FRESH TEA / TEA ESPRESSO",
+        "menuId": 0,
+        "menuItems": [
+          {
+            "id": 25,
+            "name": "Brown Rice Green Tea",
+            "sectionId": 2
+          },
+          {
+            "id": 26,
+            "name": "Brewed Oolong Tea",
+            "sectionId": 2
+          },
+          {
+            "id": 27,
+            "name": "Ichiban Roasted Tea",
+            "sectionId": 2
+          },
+          {
+            "id": 28,
+            "name": "Jasmine Green Tea",
+            "sectionId": 2
+          },
+          {
+            "id": 29,
+            "name": "Black Tea",
+            "sectionId": 2
+          },
+          {
+            "id": 30,
+            "name": "Blue Mountain Green Tea",
+            "sectionId": 2
+          },
+          {
+            "id": 31,
+            "name": "Japanese Sakura Sencha",
+            "sectionId": 2
+          },
+          {
+            "id": 32,
+            "name": "Japanese Genmaicha",
+            "sectionId": 2
+          },
+          {
+            "id": 33,
+            "name": "Formosa Oolong Tea",
+            "sectionId": 2
+          },
+          {
+            "id": 34,
+            "name": "Taiwan Alishan JinShyuan Tea",
+            "sectionId": 2
+          },
+          {
+            "id": 35,
+            "name": "Anxi TieGuanyin Tea",
+            "sectionId": 2
           }
         ]
       }

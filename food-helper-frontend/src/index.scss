@@ -15,12 +15,22 @@ $mdc-theme-text-primary-on-dark: white;
 @import "@material/menu/mdc-menu";
 @import "@material/top-app-bar/mdc-top-app-bar";
 @import "@material/card/mdc-card";
+@import "@material/button/mdc-button";
 
 html {
   min-height: 100%;
 
 }
 
-body, #root {
+body {
   margin: 0;
+
+  #root {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
 }
