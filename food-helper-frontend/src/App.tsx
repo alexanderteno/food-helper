@@ -89,7 +89,7 @@ class App extends React.Component<IAppProps, IAppState> {
   }
 
   private selectRestaurant(restaurant: IRestaurant) {
-    this.setState(( { restaurantId: restaurant.id } ));
+    this.setState(( { restaurantId: restaurant.id, navigationOpen: false } ));
   }
 
 }

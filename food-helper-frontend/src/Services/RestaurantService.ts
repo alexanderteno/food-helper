@@ -1,24 +1,19 @@
-import IMenuItem from '../Model/IMenuItem';
 import IRestaurant from '../Model/IRestaurant';
 
-const mockRestaurant = require('../Fixtures/mockRestaurant.json');
+const mockRestaurants = require('../Fixtures/mockRestaurant.json');
 
 class RestaurantService {
 
     public static getRestaurants(): Promise<IRestaurant[]> {
-
         return new Promise((resolve) => {
-            resolve([mockRestaurant]);
+            resolve(mockRestaurants);
         });
-
     }
 
-    public static getMenu(restaurantId: number): Promise<IMenuItem[]> {
-
+    public static getRestaurant(restaurantId: number): Promise<IRestaurant | undefined> {
         return new Promise((resolve) => {
-            resolve(mockRestaurant.menu);
+            resolve(mockRestaurants.find((restaurant: IRestaurant) => restaurant.id === restaurantId))
         });
-
     }
 
 }
