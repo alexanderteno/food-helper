@@ -43,6 +43,16 @@ class App extends React.Component<IAppProps, IAppState> {
       });
   }
 
+  public componentDidUpdate(prevProps: IAppProps) {
+    if (prevProps === this.props) {
+      return;
+    }
+    const { path, isExact } = this.props.match;
+    if (isExact && path === '/') {
+      this.setState({ restaurantId: undefined });
+    }
+  }
+
   public render() {
 
     const toggleAvailable = !!this.state.restaurants;
