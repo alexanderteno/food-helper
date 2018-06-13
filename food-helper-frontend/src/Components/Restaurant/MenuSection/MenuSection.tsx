@@ -8,7 +8,7 @@ const menuSectionClassName = [
   'menu-section',
   'mdc-card',
   'mdc-layout-grid__cell',
-  'mdc-layout-grid__cell--span-6-desktop',
+  'mdc-layout-grid__cell--span-7-desktop',
   'mdc-layout-grid__cell--span-4-tablet',
   'mdc-layout-grid__cell--span-4-phone',
 ];
